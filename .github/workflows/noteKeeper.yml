@@ -27,7 +27,4 @@ jobs:
       - name: Run Tests
         run: npm test
 
-      - name: Build and Deploy
-        run: |
-          npm run build
-          # Add your deployment commands here (e.g., deploying to a server)
+     

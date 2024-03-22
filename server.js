@@ -2,7 +2,7 @@ const express = require('express');
 const env = require('dotenv');
 const mongoose = require('mongoose');
 const router = require('./routes/Noteroutes')
-const PORT = 4001
+const PORT = process.env.PORT ||  4001;
 const app = express();
 
 env.config();

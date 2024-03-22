@@ -98,7 +98,7 @@ const Notecontroller = {
             const note = await Notes.findByIdAndUpdate(id, { Title, Description });
             res.status(200).json({
                 message: "note updated successfully.",
-                note
+                
             })
         } catch (error) {
             return res.status(500).json({

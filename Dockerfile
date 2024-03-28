@@ -15,7 +15,7 @@ RUN npm install
 COPY . .
 
 # expose vite default PORT (not required)
-EXPOSE 3000 
+EXPOSE 4001
 
 
 # Start the app whenever the container is launched

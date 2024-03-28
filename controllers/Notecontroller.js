@@ -22,7 +22,7 @@ const Notecontroller = {
 
             const newPost = await Notes.create({ Title, Description })
             res.json({
-                message: "note created successfully",
+                message: "note created",
                 newPost
             });
             

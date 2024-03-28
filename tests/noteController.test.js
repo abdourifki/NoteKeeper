@@ -25,7 +25,7 @@ describe('Notecontroller', () => {
   
         expect(Notes.create).toHaveBeenCalledWith({ Title: 'Test Title', Description: 'Test Description' });
         expect(res.json).toHaveBeenCalledWith({
-          message: 'note created successfully',
+          message: 'note created',
           newPost: req.body,
         });
       });  
